@@ -1,0 +1,20 @@
+import os 
+
+
+dir_path = r'.\BOOKS'
+
+W = os.walk(dir_path)
+print('type(W):', type(W))
+print(W)
+
+counter = 0 
+for t in W: 
+    print('FOLDER NAME:', t[0])
+    if len(t[1]) != 0: 
+        print('\tSUBFOLDERS:')
+        for folder_name in t[1]: 
+            print('\t\t', folder_name)
+    if len(t[2]) != 0: 
+        print('\tFILES:')
+        for file_name in t[2]:    
+            print('\t\t', file_name)
