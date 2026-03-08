@@ -29,7 +29,7 @@ class Date
 
 int main(void)
 {
-    Date myDate(5, 10, 2025);
+    Date myDate(19, 12, 2025);
     int day;
 
     day = myDate.get_month();

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Define a function object (functor)
+// Define a function object 
 class SumFunctor {
 public:
     int n;
