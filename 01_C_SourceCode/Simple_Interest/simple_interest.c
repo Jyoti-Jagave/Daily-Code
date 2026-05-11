@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   
     // Input values
     float P = 1, R = 1, T = 1;
